@@ -152,3 +152,38 @@ BUTTON
 .btn--red:hover {
   background-color: #dd3434;
 }
+
+/*..........
+FEATURES
+...........*/
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 95px 0;
+}
+
+.features__item {
+  width: 33.333333333333%;
+  padding: 0 40px;
+  margin: 25px 0;
+  text-align: center;
+}
+
+.features__icon {
+  margin-bottom: 25px;
+}
+
+.features__name {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #2d3033;
+  text-transform: uppercase;
+}
+
+.features__text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #6c7279;
+}
