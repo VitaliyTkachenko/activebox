@@ -25,6 +25,7 @@ body {
   color: #6c7279;
   margin: 0px;
   background-color: #fff;
+  -webkit-font-smoothing: antialised;
 }
 
 /*..........
@@ -103,13 +104,51 @@ INTRO
   width: 100%;
   max-width: 970px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .intro__title {
+  margin: 0 0 30px;
   font-family: "Open Sans", sans-serif;
   font-size: 65px;
+  line-height: 1.1;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
-  text-align: center;
+}
+
+.intro__subtitle {
+  font-size: 22px;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+/*.........
+BUTTON
+...........*/
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 14px 40px;
+  border-radius: 2px;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+
+  font-size: 13px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.1s linear;
+}
+
+.btn--red {
+  background-color: #e84545;
+}
+
+.btn--red:hover {
+  background-color: #dd3434;
 }
