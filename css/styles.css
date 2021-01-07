@@ -135,7 +135,7 @@ INTRO
   justify-content: center;
   height: 750px;
   padding-top: 100px;
-  background: #31344e url("/activebox/css/img/intro-bg.jpg") no-repeat center;
+  background: #31344e url("/activebox/img/intro-bg.jpg") no-repeat center;
   background-size: cover;
 }
 
